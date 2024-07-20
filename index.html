@@ -1,1 +1,247 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Murielly Oliveira Nascimento" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Murielly"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Murielly Oliveira Nascimento</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Murielly Oliveira Nascimento</span>
+          <span class="site-description">Programmer • Back-End Developer • Researcher</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/murielly-nascimento/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Murielly-Nascimento">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/12oqQ1rDMWuhSY0W8bUIQBsj45SiJfnGN/view?usp=drive_link">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:murielly525@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="25%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/Professional-Picture-Me.jpeg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          Sou uma desenvolvedora backend recém-graduada em Sistemas de Informação pela Universidade Federal de Uberlândia. 
+          Durante minha trajetória acadêmica, dediquei-me a pesquisas científicas, incluindo 
+          "Algoritmo Evolutivo aplicado ao Problema do Percurso do Cavalo" e "Introdução à 
+          Ciência de Dados com R". Além disso, participei da maratona de programação 
+          ICPC por três anos consecutivos, aprimorando meu pensamento computacional e 
+          conhecimentos em estruturas de dados.
+          <br>
+          Minhas principais linguagens de desenvolvimento são C, C++ e Python. 
+          Profissionalmente, tenho experiência com .NET, JavaScript e SQL, 
+          desenvolvendo soluções backend para clientes. Atualmente, 
+          busco oportunidades que envolvam aprendizado de máquina e análise de dados.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-csharp-plain-wordmark colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <p>Minhas linguagens favoritas para programação de sistemas, engenharia de software e análise de dados.</p>
+        </div>
+
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <i class="devicon-vuejs-plain colored"></i>
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <p>Minhas tecnologias preferidas para desenvolvimento web front-end e design de componentes.</p>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-docker-plain-wordmark colored"></i>
+          <p>Minhas ferramentas favoritas para controle de versão, edição de código e orquestração de contêineres.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Meus Projetos</h1>
+      </div>
+
+      <!-- User Project #2: Algoritmo Evolutivo -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Algoritmos-Evolutivos.webp" alt="Algoritmos Evolutivos" />
+            <img alt="Algoritmos Evolutivos" src="./assets/img/jpg/Algoritmos-Evolutivos.png" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Algoritmo Evolutivo Aplicado ao Problema do Percurso do Cavalo</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/c.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/linux.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+            Monografia apresentada à Faculdade de Computação da Universidade Federal de
+            Uberlândia, Minas Gerais, como requisito, parcial, exigido à obtenção do grau de
+            Bacharel em Sistemas de Informação.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Murielly-Nascimento/AE"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: Introdução à Ciência de Dados -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/IntroducaoCienciaDados.webp" alt="COVID-19 Tracker App" />
+            <img alt="Introdução a Ciência de Dados" src="./assets/img/jpg/IntroducaoCienciaDados.png" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Introdução a Ciência de Dados com R</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/r.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+            &nbsp;
+            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          </div>
+          <p style="text-align: justify">
+            Iniciação Científica desenvolvida em R. na qual apliquei conceitos de análise e 
+            mineração de dados na amostra de dados Airline Dataset que contém mais de 200 
+            milhões de voos domésticos feitos em território americano, coletados pelo 
+            Departamento de Estatísticas de Transporte dos Estados Unidos.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Murielly-Nascimento/IC">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <!-- Use Project #4: Valuto: ADS Library -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/ads_library.webp"
+              alt="Valuto: ADS Library"
+            />
+            <img alt="Valuto: ADS Library" src="./assets/img/jpg/ads_library.png" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>ADS Library</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/linux.svg"
+              style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            O ADS Library é uma biblioteca digital de Trabalhos de Graduação. O mesmo foi desenvolvido
+            com base na monografia de um grupo de alunos da Faculdade de Tecnologia de Sorocaba. O diferencial
+            da minha abordagem foi a implementação completa do sistema em Prolog.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/Murielly-Nascimento/Prolog">
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Murielly Oliveira Nascimento, 2024</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
