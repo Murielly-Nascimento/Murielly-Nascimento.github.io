@@ -49,9 +49,94 @@ body{
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-text h2{
+.about-text h2,
+.projects h2{
     color: #234589;
     font-size: 30px;
     font-weight: lighter;
     font-family: "Playfair Display", serif;
+}
+
+.about-text{
+    font-weight: 300;
+    font-style: normal;
+}
+
+.technology{
+    background-color: #050c9c;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.technology h2{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Playfair Display", serif;
+}
+
+.technology h3{
+    font-weight: 300;
+    font-size: larger;
+}
+
+.technology-grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.tech-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.projects-grid{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 36px;
+}
+
+.project-card{
+    display: flex;
+    gap: 36px;
+}
+
+.project-text h4{
+    color: #234589;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Playfair Display", serif;
+}
+
+.project-text{
+    font-weight: 300;
+}
+
+.project-media img{
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #3ab3f9;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+footer{
+    background-color: #050c9c;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
